@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App 123</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Carousel Section -->
+      <div class="carousel-container">
+        <div class="carousel-slides">
+          <div class="carousel-slide">
+            <img src="./public/image1.jpg" alt="" class="w-full" />
+            <h2 class="carousel-slide-title">Welcome Offer 1</h2>
+          </div>
+          <div class="carousel-slide">
+            <img src="./public/image2.jpg" alt="" class="w-full" />
+            <h2 class="carousel-slide-title">Welcome Offer 2</h2>
+          </div>
+          <div class="carousel-slide">
+            <img src="./public/image3.jpg" alt="" class="w-full" />
+            <h2 class="carousel-slide-title">Welcome Offer 3</h2>
+          </div>
+        </div>
+        <button class="prev-button">Prev</button>
+        <button class="next-button">Next</button>
+      </div>
+      
+      <!--  Steps Navigation -->
+      <div class="steps-container">
+        <div class="step step-register" id="step-0">
+          <h2>Step 1: Register</h2>
+          <p>Sign up to get started.</p>
+          <button class="next-step">Next</button>
+        </div>
+        <div class="step step-deposit" id="step-1" style="display: none;">
+          <h2>Step 2: Deposit</h2>
+          <p>Make your first deposit to play.</p>
+          <button class="next-step">Next</button>
+        </div>
+        <div class="step step-play" id="step-2" style="display: none;">
+          <h2>Step 3: Play</h2>
+          <p>Start playing your favorite games.</p>
+          <button class="next-step">Finish</button>
+        </div>
+      </div>
+      
+      <!--  Animated Cards Section -->
+      <section class="cards-section">
+        <div class="card">
+          <div class="card-content">
+            <h3>Slots</h3>
+            <p>Enjoy a wide variety of slot games.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>Live Games</h3>
+            <p>Experience the thrill of live casino games.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>Excellent Service</h3>
+            <p>Our support team is here 24/7 for you.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
